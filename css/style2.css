@@ -1,0 +1,53 @@
+@url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50;
+}
+div {
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+    padding: 10%;
+    align-content: center;
+    
+}
+.container img {
+    width: 200px;
+    align-items: center;
+    
+}
+.Sedans {
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 0px;
+    border-radius: 5%;
+    background-color: rgb(136, 136, 35); 
+    border-top-right-radius: 0%; 
+    border-bottom-right-radius: 0%;
+}
+.SUVs {
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 0px;
+    background-color: darkcyan;
+   
+}
+.Luxury {
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 0px;
+    border-radius: 5%;
+    background-color: darkgrey;
+    border-top-left-radius: 0%; 
+    border-bottom-left-radius: 0%;
+}
